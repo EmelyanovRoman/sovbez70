@@ -1,0 +1,111 @@
+@media screen and (max-width: 670px) {
+	/* Navbar */
+	/* Slider */
+	/* Modal */
+	/* About */
+	/* Services */
+	/* Contacts */
+	/* Custom things */
+
+	/* Slider */
+
+	.slides .camera img {
+		background-position: right center !important;
+	}
+
+	.slides .alarmsystem img {
+		background-position: left center !important;
+	}
+
+	.slides .wire img {
+		background-position: left bottom !important;
+	}
+
+	.modal-content h5 {
+		font-size: 1em !important;
+		font-weight: 700;
+	}
+
+	.slides li .opacity + div.caption {
+		top: 20% !important;
+		width: 90% !important;
+		left: 5% !important;
+		right: 5% !important;
+	}
+
+	.slides .short-text {
+		display: inline-block;
+	}
+
+	/* Caption */
+
+	.caption h3 {
+		font-family: "Bravo", Arial, Helvetica, sans-serif;
+		font-size: 2.5em;
+		font-weight: 700;
+		letter-spacing: 4px;
+	}
+
+	.caption > h5 {
+		font-size: 1.5em;
+		margin-bottom: 2rem;
+		font-weight: 500;
+	}
+
+	/* Modal */
+
+	.modal.open {
+		top: 0% !important;
+		margin: 0 !important;
+		min-height: 100%;
+	}
+
+	.modal .modal-content {
+		padding: 0 !important;
+	}
+
+	/* Custom things */
+
+	.full-text {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 990px) and (min-width: 670px) {
+	.modal li {
+		margin: 10px 0px;
+		font-size: 1em;
+		font-stretch: expanded;
+		font-weight: 500;
+	}
+
+	.modal ul {
+		color: #fff;
+		text-align: left !important;
+		margin-left: 0.75rem;
+	}
+
+	.modal-content {
+		padding: 0 !important;
+	}
+
+	.slides li .opacity + .caption:not(.center-align) {
+		top: 5% !important;
+	}
+
+	.slides li .opacity + .caption {
+		width: 90% !important;
+		left: 5% !important;
+		right: 5% !important;
+	}
+
+	.caption h3 {
+		font-family: "Bravo", Arial, Helvetica, sans-serif;
+		font-size: 5em;
+	}
+
+	.caption > h5 {
+		font-size: 2em;
+		margin-bottom: 2rem;
+	}
+}

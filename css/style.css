@@ -1,0 +1,393 @@
+@font-face {
+  font-family: "Bravo";
+  src: url(fonts/BravoRG.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "Accuratist";
+  src: url(fonts/Accuratist.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "Exo 2.0 Extra Bold Italic";
+  src: url("/fonts/Exo2.0-ExtraBoldItalic.otf");
+}
+
+/* fonts */
+h1,
+h2,
+h3,
+h5,
+a {
+  font-family: "Exo 2.0 Extra Bold Italic", Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: #6f6f6f;
+}
+
+/* Navbar */
+/* Slider */
+/* Modal */
+/* About */
+/* Services */
+/* Contacts */
+/* Custom things */
+/* Navbar */
+.navbar-fixed {
+  height: 0 !important;
+}
+
+.navbar-fixed nav {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-fixed nav.nav-wrapper li > a {
+  font-size: 3vh;
+  font-weight: 450;
+  padding: 0 3vw;
+  color: #fff;
+}
+
+.navbar-fixed nav.nav-wrapper ul li > a:hover {
+  color: #1976d2 !important;
+}
+
+.slider .indicators .indicator-item {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 12px;
+  background-color: rgba(25, 118, 210, 0.6) !important;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  border-radius: 50%;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #1976d2 !important;
+}
+
+.slider .slides {
+  height: 700px !important;
+}
+
+.slider .slides .caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+}
+
+.slider .slides .caption h3 {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 3em;
+  letter-spacing: 4px;
+  color: #fafafa;
+}
+
+.slider .slides .caption > h5 {
+  color: #fafafa !important;
+  font-size: 2em;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.slider .slides li .opacity + div.caption {
+  top: 25% !important;
+  width: 90% !important;
+  left: 5% !important;
+  right: 5% !important;
+}
+
+.slider .slides ul.indicators li.indicator-item.active {
+  background-color: rgba(25, 118, 210, 0.9) !important;
+}
+
+.slider .slides .opacity {
+  width: inherit;
+  height: inherit;
+}
+
+.slider .slides .opacity.scale-slider {
+  -webkit-transform: translate(0, 0) scale(1) !important;
+          transform: translate(0, 0) scale(1) !important;
+}
+
+.slider .slides .opacity.center-animation-slide {
+  -webkit-transform: translateY(20%) scale(1.4);
+          transform: translateY(20%) scale(1.4);
+  -webkit-transition: all 10s linear;
+  transition: all 10s linear;
+}
+
+.slider .slides .opacity.left-animation-slide {
+  -webkit-transform: translateX(-10%) scale(1.4);
+          transform: translateX(-10%) scale(1.4);
+  -webkit-transition: all 10s linear;
+  transition: all 10s linear;
+}
+
+.slider .slides .opacity.right-animation-slide {
+  -webkit-transform: translateX(10%) scale(1.4);
+          transform: translateX(10%) scale(1.4);
+  -webkit-transition: all 10s linear;
+  transition: all 10s linear;
+}
+
+.indicators {
+  z-index: 10;
+  bottom: 15% !important;
+}
+
+/* Modal */
+.modal {
+  width: 100%;
+  position: absolute;
+  max-height: 90% !important;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.modal h5 {
+  margin-bottom: 1.5rem;
+}
+
+.modal .container {
+  text-align: center;
+  width: 95%;
+}
+
+.modal.open {
+  position: absolute !important;
+  width: 100%;
+}
+
+.modal .modal-footer {
+  background: transparent !important;
+}
+
+.modal .modal-content {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.modal ul {
+  color: #fff;
+  text-align: left !important;
+}
+
+.modal li {
+  margin: 10px 20px;
+  font-size: 1.2em;
+  list-style-type: disc !important;
+}
+
+/* About */
+/* Services */
+/* Contacts */
+/* Custom things */
+.telegram-gradient {
+  text-transform: uppercase;
+  background: #56ccf2;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#2f80ed), to(#56ccf2));
+  background: linear-gradient(to right, #2f80ed, #56ccf2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.indigo {
+  background-color: #ff9800 !important;
+}
+
+.flare-gradient {
+  /*font-family: "Accuratist" !important;*/
+  font-weight: 700;
+  letter-spacing: 3vw;
+  text-transform: uppercase;
+  background: -webkit-gradient(linear, left top, right top, from(#f12711), to(#f5af19));
+  background: linear-gradient(to right, #f12711 0%, #f5af19 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.short-text {
+  display: none;
+}
+
+/* About */
+.about {
+  margin-top: 56px;
+  text-align: center;
+}
+
+.about .single-about-content .round-border,
+.about .single-about-content .icon,
+.about .single-about-content h5 {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.about .single-about-content .round-border {
+  height: 150px;
+  width: 150px;
+  border: 2px solid #1976d2;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.about .single-about-content .round-border.icon {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  line-height: 120px;
+  border-width: 2px;
+  font-size: 36px;
+}
+
+.about .single-about-content h5 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.about .single-about-content:hover .round-border,
+.about .single-about-content:hover .icon,
+.about .single-about-content:hover h5 {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.about .single-about-content:hover .round-border {
+  background: #1976d2;
+}
+
+.about .single-about-content:hover h5 {
+  color: #1976d2;
+}
+
+.about .single-about-content:hover .icon {
+  color: #fff;
+}
+
+.about h4 {
+  position: relative;
+  margin-bottom: 55px;
+}
+
+.title:after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  right: 0;
+  height: 3px;
+  width: 50px;
+  margin-left: -25px;
+  background: #1976d2;
+  z-index: -1;
+}
+
+.title span {
+  background-color: white;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.parallax-container {
+  height: 400px !important;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.parallax-container h5 {
+  color: #fff;
+  font-size: 5em;
+  text-align: center;
+}
+
+.services {
+  padding: 56px 0;
+}
+
+.services .single-services-content {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+  height: 420px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #808489;
+  -o-border-image: initial;
+     border-image: initial;
+  padding: 135px 23px 65px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .single-services-content .icon-container,
+.services .single-services-content h5,
+.services .single-services-content p {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .single-services-content .icon-header {
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  top: 120px;
+}
+
+.services .single-services-content .icon-container {
+  font-size: 48px;
+  color: #808489;
+  width: 80px;
+  margin: 16px auto;
+  background: transparent;
+}
+
+.services .single-services-content h5 {
+  color: #808489;
+  margin-bottom: 32px;
+}
+
+.services .single-services-content:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding-top: 0px;
+}
+
+.services .single-services-content:hover .icon-container,
+.services .single-services-content:hover h5,
+.services .single-services-content:hover p {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .single-services-content:hover h5,
+.services .single-services-content:hover .icon-container {
+  color: #1976d2;
+}
+
+.services .single-services-content:hover .icon-header {
+  top: 60px;
+}
+
+.services .single-services-content:hover p {
+  opacity: 1;
+}
+
+.services .single-services-content p {
+  opacity: 0;
+}
+
+.services .single-services-content.camera {
+  background: url(/images/camera.jpg) 0% 0%/cover;
+}

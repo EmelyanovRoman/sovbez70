@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<!-- style CSS -->
+<link rel="stylesheet" href="styles/hover-min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="materialize.min.css">
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body>
+
+	<!-- navbar -->
+	<header>
+		<div class="navbar-fixed">
+			<nav class="nav-wrapper transparent">
+				<div class="container">
+					<a href="" class="brand-logo active-nav">СовБез</a>
+					<a href="" class="sidenav-trigger" data-target="mobile-menu">
+						<i class="material-icons">menu</i>
+					</a>
+					<ul class="right hide-on-med-and-down">
+						<li><a href="#main" class="waves-effect ">Компания</a></li>
+						<li><a href="#about" class="waves-effect ">О нас</a></li>
+						<li><a href="#services" class="waves-effect ">Услуги</a></li>
+						<li><a href="#contact" class="waves-effect ">Контакты</a></li>
+					</ul>
+					<ul class="sidenav gey lighten-2" id="mobile-menu">
+						<li><a href="#main">Совбез</a></li>
+						<li><a href="#about">О нас</a></li>
+						<li><a href="#services">Услуги</a></li>
+						<li><a href="#contact">Контакты</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- Slider -->
+	<div class="slider">
+		<ul class="slides" id="slides">
+			<li>
+				<div class="opacity center-animation-slide"><img src="images/security.jpg"></div>
+				<div class="caption center-align">
+					<h3><span class='telegram-gradient'>Сов</span>ременная <span class='telegram-gradient'>Без</span>опасность
+					</h3>
+					<h5 class="light ">
+						<span class="txt-rotate" data-period="1000"
+							data-rotate='[ "Мы делаем мир безопаснее", "комфортнее", "приятнее", "для Вас...", "и для себя."]'>
+						</span> </h5>
+					<a class="center-align waves-effect  btn-large blue darken-2 hvr-pulse">Связаться с
+						нами</a>
+				</div>
+			</li>
+			<li>
+				<div class="opacity left-animation-slide"><img src="images/camera.jpg"></div>
+				<div class="caption left-align">
+					<h3><span class="full-text">Видеонаблюдение</span>
+						<span class="short-text">Видео<br>наблюдение</span></h3>
+					<h5 class="light ">Наблюдаем за всем что происходит</h5>
+					<a class="left waves-effect  btn-large modal-trigger blue darken-2 hvr-grow" href="#camera">Подробнее</a>
+				</div>
+			</li>
+			<li>
+				<div class="opacity alarmsystem right-animation-slide"><img src="images/alarmsystem.jpg"></div>
+				<div class="caption right-align">
+					<h3>Охранно-пожарная сигнализация</h3>
+					<h5 class="light ">Ваше имущество под надежной охраной</h5>
+					<a class="right waves-effect  btn-large modal-trigger blue darken-2 hvr-grow" href="#alarm">Подробнее</a>
+				</div>
+			</li>
+			<li>
+				<div class="opacity left-animation-slide"><img src="images/access2.jpg"></div>
+				<div class="caption left-align">
+					<h3>Система контроля и учета доступа</h3>
+					<h5 class="light ">Знаем кто зашел и кто вышел</h5>
+					<a class="left waves-effect  btn-large modal-trigger blue darken-2 hvr-grow" href="#access">Подробнее</a>
+				</div>
+			</li>
+			<li>
+				<div class="opacity wire right-animation-slide"><img src="images/wire.jpg"></div>
+				<div class="caption right-align">
+					<h3>Инженерно-технические средства охраны</h3>
+					<h5 class="light ">Ограждаем, освещаем, наблюдаем</h5>
+					<a class="right waves-effect  btn-large modal-trigger blue darken-2 darken-2 hvr-grow"
+						href="#wire">Подробнее</a>
+				</div>
+			</li>
+			<li>
+				<div class="opacity center-animation-slide"><img src="images/city.jpg"></div>
+				<div class="caption center-align">
+					<h3>Мониторинг транспорта</h3>
+					<h5 class="light ">Мы всегда знаем где наш транспорт</h5>
+					<a class="center-align waves-effect  btn-large modal-trigger blue darken-2 hvr-grow"
+						href="#city">Подробнее</a>
+				</div>
+			</li>
+		</ul>
+	</div> <!-- Slider -->
+
+
+	<!-- About us -->
+	<div class="about">
+		<div class="container">
+			<div class="about-title description">
+				<h4 class="center-align title"><span>Современная Безопасность</span></h4>
+				<p class="center-align">Мы - многопрофильная компания, выполняющая все работы на объектах по слаботочным
+					системам, характерные для
+					инженерно-технического центра. А именно - предварительное обследование, проектирование, монтаж,
+					пуско-наладочные работы, обслуживание и сопровождение всех видов систем безопасности.</p>
+			</div>
+
+			<div class="about" id='about'>
+				<h4 class="center-align title"><span>Почему мы</span></h4>
+				<div class="row">
+					<div class="col s12 l3">
+						<div class="single-about-content">
+							<div class="icon round-border">
+								<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+							</div>
+							<h5>Только нужное</h5>
+							<p>Мы не навязываем дополнительных услуг. Выполняются только те работы, которые необходимы (по нормам) и
+								достаточны (для безопасности людей и имущества) для Заказчика.</p>
+						</div> <!-- /.single-about-content -->
+					</div> <!-- /.col -->
+					<div class="col s12 l3">
+						<div class="single-about-content">
+							<div class="icon round-border">
+								<i class="fa fa-plus" aria-hidden="true"></i>
+							</div>
+							<h5>Большой выбор</h5>
+							<p>Мы можем продавать и устанавливать любое оборудование, однако устанавливаем только самое лучшее
+								(цена-качество) и передовое оборудование, поскольку дорожим своей репутацией и постоянно расширяем круг
+								своих клиентов.</p>
+						</div> <!-- /.single-about-content -->
+					</div> <!-- /.col -->
+					<div class="col s12 l3">
+						<div class="single-about-content">
+							<div class="icon round-border">
+								<i class="fa fa-clock-o " aria-hidden="true"></i>
+							</div>
+							<h5>Это на долго</h5>
+							<p>Мы нацелены на долгосрочное сотрудничество с клиентом, и особое внимание уделяем контролю качества на
+								всех этапах своих работ. Заказчики, обратившись к нам однажды, остаются с нами на годы.</p>
+						</div> <!-- /.single-about-content -->
+					</div> <!-- /.col -->
+					<div class="col s12 l3">
+						<div class="single-about-content">
+							<div class="icon round-border">
+								<i class="fa fa-street-view" aria-hidden="true"></i>
+							</div>
+							<h5>Подход</h5>
+							<p>Мы консультируем каждого клиента, и составляем оптимальный список услуг индивидуально. Действуем по
+								правилу - заказчик всегда прав</p>
+						</div> <!-- /.single-about-content -->
+					</div> <!-- /.col -->
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- parallax services -->
+	<div class="parallax-container valign-wrapper" id='services'>
+		<div class="container">
+			<div class="row">
+				<h5 class="col s12">Услуги</h5>
+			</div>
+		</div>
+		<div class="parallax"><img src="/images/parallax-services.jpg" alt="Unsplashed background img 2"
+				style="opacity: 1; transform: translate3d(-50%, 213.661px, 0px);"></div>
+	</div>
+
+	<!-- Services -->
+
+	<div class="services">
+		<div class="container">
+			<div class="row">
+
+				<div class="col s12 l4">
+					<div class="single-services-content camera">
+						<div class="icon-header">
+							<div class="icon-container">
+								<i class="fa fa-truck" aria-hidden="true"></i>
+							</div>
+							<h5>Видеонаблюдение</h5>
+						</div>
+						<p>КОП «Отечество» предлагает услугу сопровождения инкассации и грузов по всей территории Российской
+							Федерации. Прежде всего, наши специалисты анализируют маршрут передвижения. Во внимание принимаются все
+							потенциально опасные и проблемные участки.</p>
+					</div>
+				</div>
+
+				<div class="col s12 l4">
+					<div class="single-services-content">
+						<div class="icon-header">
+							<div class="icon-container">
+								<i class="fa fa-truck" aria-hidden="true"></i>
+							</div>
+							<h5>Видеонаблюдение</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col s12 l4">
+					<div class="single-services-content">
+						<div class="icon-header">
+							<div class="icon-container">
+								<i class="fa fa-truck" aria-hidden="true"></i>
+							</div>
+							<h5>Видеонаблюдение</h5>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col s12 l4">
+					<div class="single-services-content">
+						<div class="icon-header">
+							<div class="icon-container">
+								<i class="fa fa-truck" aria-hidden="true"></i>
+							</div>
+							<h5>Видеонаблюдение</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col s12 l4">
+					<div class="single-services-content">
+						<div class="icon-header">
+							<div class="icon-container">
+								<i class="fa fa-truck" aria-hidden="true"></i>
+							</div>
+							<h5>Видеонаблюдение</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col s12 l4">
+					<div class="single-services-content">
+						<div class="icon-header">
+							<div class="icon-container">
+								<i class="fa fa-truck" aria-hidden="true"></i>
+							</div>
+							<h5>Видеонаблюдение</h5>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+	<!-- Contacts -->
+	<!-- Footer -->
+
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/typing-letters.js"></script>
+	<script src="js/theme.js"></script>
+
+
+</body>
+
+</html>
